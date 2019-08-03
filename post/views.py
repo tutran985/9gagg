@@ -172,9 +172,9 @@ class Get_Deatail_Post(APIView):
     
 
     def xu_ly_config(self):
-        xinchao = 'xin chào'
-        return xinchao
+        dsss = 'xin chào'
+        return dsss
 
     def fixbug():
-        xa = 'as'
-        return xa
+        cailonêm = 'a'
+        return cailonêm
