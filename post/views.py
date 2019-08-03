@@ -173,13 +173,13 @@ class Get_Deatail_Post(APIView):
 
     def xu_ly_config(self):
         xinchao = 'xin chào'
-        vaicalon = 'assss'
-        return vaicalon
+        vaicalonssss = 'assss'
+        return vaicalonssss
 
     def fixbug():
-        addd = 'ass'
-        return addd
+        addsssssd = 'ass'
+        return addsssssd
     
     def xulylai():
-        print('aaaa')
+        print('sssss')
     
