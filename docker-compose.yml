@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  web:
+    build: . # se tim den file Dockerfile
+    command: python manage.py runserver 0.0.0.0:8000
+    restart: always
+    volumes:
+      - .:/code
+    ports:
+      - "8001:8000"
+    depends_on:
+      - db
+  
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: '10101997'
+      POSTGRES_DB: '9gag'
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
