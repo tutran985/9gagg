@@ -178,3 +178,6 @@ class Get_Deatail_Post(APIView):
     def fixbug():
         xa = 'as'
         return xa
+
+    def addss():
+        print('a')
