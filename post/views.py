@@ -177,3 +177,7 @@ class Get_Deatail_Post(APIView):
     
     def cho():
         return 'a'
+        
+    def hello():
+        return 'a'
+    
