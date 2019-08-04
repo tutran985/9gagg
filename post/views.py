@@ -175,3 +175,6 @@ class Get_Deatail_Post(APIView):
         aas = 'a'
         return aas
     
+    def hello():
+        return 'a'
+    
